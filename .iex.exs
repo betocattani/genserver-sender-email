@@ -1,5 +1,6 @@
 emails = [
   "joe@erlang.com",
   "ragnar@vikings.com",
-  "darrel@pantera.com"
+  "darrel@pantera.com",
+  "segovia@guitar.com"
 ]
