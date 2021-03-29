@@ -1,6 +1,5 @@
 defmodule Sender do
-  def send_email("cattani@mail.com" = email),
-    do: raise(raise "Oops, couldn't send email to #{email}!")
+  def send_email("cattani@mail.com" = _email), do: :error
 
   def send_email(email) do
     Process.sleep(3000)
